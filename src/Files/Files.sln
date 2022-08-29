@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ui", "Ui", "{ABB4294D-E1FA-4F36-AF16-C8A6BE51E5E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{87CBB73F-F067-4027-A22D-5BD08B874C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files.UI", "UI\Files.UI\Files.UI.csproj", "{5C767844-3DE1-4E3C-A8C7-1D06B2A30217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files.Core", "Core\Files.Core\Files.Core.csproj", "{35790E8C-9D4D-41A3-86FB-3E7AEEB03A99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarbleUI.Controls", "..\..\..\MarbleUI\src\Controls\MarbleUI.Controls\MarbleUI.Controls.csproj", "{970606E4-E8AD-4CEA-89F3-473170338EA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarbleUi.Styles.Default.Light", "..\..\..\MarbleUI\src\Styles\MarbleUi.Styles.Default.Light\MarbleUi.Styles.Default.Light.csproj", "{722DF698-B8E5-4D99-BAFB-FE10DA3943A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C767844-3DE1-4E3C-A8C7-1D06B2A30217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C767844-3DE1-4E3C-A8C7-1D06B2A30217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C767844-3DE1-4E3C-A8C7-1D06B2A30217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C767844-3DE1-4E3C-A8C7-1D06B2A30217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35790E8C-9D4D-41A3-86FB-3E7AEEB03A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35790E8C-9D4D-41A3-86FB-3E7AEEB03A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35790E8C-9D4D-41A3-86FB-3E7AEEB03A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35790E8C-9D4D-41A3-86FB-3E7AEEB03A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970606E4-E8AD-4CEA-89F3-473170338EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970606E4-E8AD-4CEA-89F3-473170338EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970606E4-E8AD-4CEA-89F3-473170338EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970606E4-E8AD-4CEA-89F3-473170338EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722DF698-B8E5-4D99-BAFB-FE10DA3943A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722DF698-B8E5-4D99-BAFB-FE10DA3943A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722DF698-B8E5-4D99-BAFB-FE10DA3943A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722DF698-B8E5-4D99-BAFB-FE10DA3943A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C767844-3DE1-4E3C-A8C7-1D06B2A30217} = {ABB4294D-E1FA-4F36-AF16-C8A6BE51E5E5}
+		{35790E8C-9D4D-41A3-86FB-3E7AEEB03A99} = {87CBB73F-F067-4027-A22D-5BD08B874C50}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1C5AB3E-AA6D-42DA-A9E7-584B8E83F7C0}
+	EndGlobalSection
+EndGlobal

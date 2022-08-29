@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\MarbleUI\src\Controls\MarbleUI.Controls\MarbleUI.Controls.csproj" />
+    <ProjectReference Include="..\..\..\..\..\MarbleUI\src\Styles\MarbleUi.Styles.Default.Light\MarbleUi.Styles.Default.Light.csproj" />
+  </ItemGroup>
+
+</Project>
